@@ -1,21 +1,25 @@
 {
   "expo": {
-    "name": "OpenCPS",
-    "slug": "Opencps",
-    "privacy": "public",
+    "name": "opencps",
+    "description": "login local",
+    "slug": "snack-HJDbIiaZH",
+    "privacy": "unlisted",
     "sdkVersion": "33.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+    "primaryColor": "#cccccc",
+    "icon": "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
+    "loading": {
+      "icon": "https://d1wp6m56sqw74a.cloudfront.net/~assets/c9aa1be8a6a6fe81e20c3ac4106a2ebc",
+      "hideExponentText": false
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4",
+        "otf",
+        "xml"
+      ]
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -24,7 +28,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.yourappname"
+    },
+    "android": {
+      "package": "com.yourcompany.yourappname"
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ]
   }
 }
